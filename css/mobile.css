@@ -1,0 +1,14 @@
+/* 480 - 320 */
+@media screen and (max-width: 377px) {
+  .conteiner {
+    padding: 24px 30px;
+  }
+  .screen {
+    padding: 34px;
+    font-size: 40px;
+  }
+
+  .buttons {
+    gap: 13px;
+  }
+}

@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  width: 1440px;
+  padding: 96px;
+  background-color: #3a4663;
+}
+.calc {
+  width: 540px;
+  margin: auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.menu_h3 {
+  font-family: "League Spartan", serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu_div {
+  display: flex;
+  justify-content: space-between;
+  gap: 26px;
+  align-items: center;
+}
+
+.menu_theme {
+  font-family: "League Spartan", serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding-top: 15px;
+  line-height: 15px;
+  letter-spacing: 1px;
+}
+.menu_div_p {
+  font-family: "League Spartan", serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  gap: 15px;
+
+  /* letter-spacing: 15px; */
+}
+
+.menu_btn {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 5px;
+  align-items: center;
+}
+.menu_btn_btn {
+  width: 71px;
+  height: 26px;
+  background-color: #242d44;
+  border-radius: 13px;
+  padding: 5px;
+}
+.oval {
+  width: 16px;
+  height: 16px;
+  background-color: #d03f2f;
+  border-radius: 50%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.screen {
+  padding: 36px;
+  background: #181f33;
+  border-radius: 10px;
+  font-size: 56px;
+  font-weight: bold;
+  font-family: "League Spartan", serif;
+  text-align: right;
+  color: white;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
+  padding: 32px;
+  background-color: #242d44;
+}
+
+.btn {
+  background-color: #eae3dc;
+  border-radius: 10px;
+  height: 64px;
+  box-shadow: 0px -4px 0 0 #b3a497 inset;
+  color: #434a59;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "League Spartan", serif;
+}
+
+.btn:active {
+  box-shadow: 0px 4px 0 0 #b3a497 inset;
+}
+
+.del_btn,
+.reset_btn {
+  background-color: #647198;
+  box-shadow: none;
+  color: white;
+  font-size: 28px;
+  letter-spacing: -0.47px;
+  box-shadow: 0px -4px 0 0 #414e73 inset;
+}
+
+.reset_btn {
+  grid-column: 1 / 3;
+}
+.del_btn:active {
+  box-shadow: 0px 4px 0 0 #414e73 inset;
+}
+
+.reset_btn:active {
+  box-shadow: 0px 4px 0 0 #414e73 inset;
+}
+
+.enter_btn {
+  background-color: #d03f2f;
+  box-shadow: 0px -4px 0 0 #93261a inset;
+  color: white;
+  font-size: 28px;
+  letter-spacing: -0.47px;
+  /* grid-column-start: 3; */
+  grid-column: 3 / 5;
+}
+
+.enter_btn:active {
+  box-shadow: 0px 4px 0 0 #93261a inset;
+}
