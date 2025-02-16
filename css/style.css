@@ -6,6 +6,7 @@
 }
 
 .conteiner {
+  margin: auto;
   width: 1440px;
   padding: 96px;
   background-color: #3a4663;
