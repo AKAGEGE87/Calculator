@@ -1,5 +1,5 @@
 /* 480 - 320 */
-@media screen and (max-width: 377px) {
+@media screen and (max-width: 480px) {
   .conteiner {
     padding: 24px 30px;
   }
