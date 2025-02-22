@@ -1,14 +1,21 @@
 /* 480 - 320 */
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .conteiner {
+    width: 100vw;
     padding: 24px 30px;
   }
   .screen {
+    width: 50vw;
     padding: 34px;
     font-size: 40px;
   }
 
   .buttons {
     gap: 13px;
+  }
+
+  .calc {
+    width: 100vw;
+    margin: auto;
   }
 }

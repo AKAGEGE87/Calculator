@@ -1,3 +1,7 @@
+:root{
+  --conteiner: #3a4663;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,12 +12,14 @@
 .conteiner {
   margin: auto;
   width: 1440px;
-  padding: 96px;
-  background-color: #3a4663;
-}
+  /* padding: 96px; */
+  background-color: var(--conteiner);
+  }
+  
 .calc {
   width: 540px;
   margin: auto;
+  width: 50%;
 }
 .menu {
   display: flex;
@@ -59,11 +65,13 @@
 .menu_btn {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   gap: 5px;
   align-items: center;
 }
 .menu_btn_btn {
+  display: flex;
+  justify-content: space-between;
   width: 71px;
   height: 26px;
   background-color: #242d44;
@@ -71,6 +79,7 @@
   padding: 5px;
 }
 .oval {
+  opacity: 0;
   width: 16px;
   height: 16px;
   background-color: #d03f2f;
@@ -96,6 +105,7 @@
 
 .keys {
   display: grid;
+
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 24px;
   padding: 32px;
