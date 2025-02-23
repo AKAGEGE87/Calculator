@@ -2,8 +2,8 @@ const menuButton = document.querySelector(".menu_btn_btn");
 const oval = document.querySelectorAll(".oval");
 
 const conteiner = document.querySelector(".conteiner");
-console.dir(oval);
-console.dir(menuButton);
+// console.dir(oval);
+// console.dir(menuButton);
 oval[0].style.opacity = "1";
 
 // let x = 0;
@@ -22,11 +22,12 @@ oval[0].style.opacity = "1";
 // });
 
 menuButton.addEventListener("click", (e) => {
-  console.log(e);
+  // console.log(e);
   if (e.target === oval[0]) {
     oval[0].style.opacity = "1";
     oval[1].style.opacity = "0";
     oval[2].style.opacity = "0";
+    document.documentElement.style.setProperty("--conteiner", "#452d44");   
   } else if (e.target === oval[1]) {
     oval[0].style.opacity = "0";
     oval[1].style.opacity = "1";
@@ -36,5 +37,6 @@ menuButton.addEventListener("click", (e) => {
     oval[0].style.opacity = "0";
     oval[1].style.opacity = "0";
     oval[2].style.opacity = "1";
+  document.documentElement.style.setProperty("--conteiner", "green")
   }
 });
